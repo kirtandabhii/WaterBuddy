@@ -1,0 +1,22 @@
+# Streamlit theme for WaterBuddy: calm aqua colours and a friendly rounded font.
+# Users can still switch between light and dark from the ⋮ menu → Settings.
+
+[theme]
+font = "Nunito:https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
+baseRadius = "large"
+
+[theme.light]
+primaryColor = "#0EA5C6"
+backgroundColor = "#F3FBFD"
+secondaryBackgroundColor = "#DFF3F8"
+textColor = "#0B3B4A"
+
+[theme.dark]
+primaryColor = "#22C3E6"
+backgroundColor = "#0A1A22"
+secondaryBackgroundColor = "#12303C"
+textColor = "#E3F6FB"
+
+[browser]
+# Privacy: do not send usage statistics to Streamlit.
+gatherUsageStats = false
